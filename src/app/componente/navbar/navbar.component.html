@@ -1,0 +1,13 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <span>Welcome {{name}}</span>
+    <button mat-raised-button [routerLink]="'/notes'" color="warn">Notes</button>
+    <button mat-raised-button [routerLink]="'/new-note'">New Note</button>
+
+  </mat-toolbar-row>
+</mat-toolbar>
+<!--
+import the following code into styles.css:
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+to activate the colors: primary (blue), accent(pink) y warn (red)
+-->
